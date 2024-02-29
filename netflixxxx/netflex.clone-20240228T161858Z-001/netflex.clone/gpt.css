@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(header-image.png);
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 2em;
+    background: transparent;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-box {
+    display: flex;
+  }
+  
+  .search-box input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-box button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .featured {
+    margin-bottom: 20px;
+  }
+  
+  .featured h2 {
+    margin-bottom: 10px;
+  }
+  
+  .featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
